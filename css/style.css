@@ -3,11 +3,12 @@
 
 /* CSS components */
 @import 'components/base.css';
-@import 'components/card-products.css';
+@import 'components/card_product.css';
 @import 'components/catalog.css';
+@import 'components/copyright.css';
 @import 'components/features-grid.css';
 @import 'components/features-list.css';
 @import 'components/features.css';
 @import 'components/footer.css';
 @import 'components/header.css';
-@import 'components/hero-header.css';
+@import 'components/hero_header.css';

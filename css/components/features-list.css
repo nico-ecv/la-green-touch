@@ -1,0 +1,19 @@
+.feature_list {
+    margin: 4rem 0;
+}
+
+.feature_list-layout {
+    display: grid;
+    gap: 1rem;
+}
+
+.feature_list-item {
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .feature_list-layout {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

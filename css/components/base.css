@@ -5,37 +5,107 @@
     --color-third: #A7C957;
     --color-background: #F2E8CF;
     --color-button: #BC4749;
+    --color-white: #ffffff;
+    --color-grey: #E5E5E5;
+    --color-black: #000000;
 }
 
 html, body {
     font-family: "Asap", sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
+/* Content */
+h1, h2, h3, h4 {
+    margin: 0;
+    padding-bottom: .5rem;
+}
+
+
 /* Content */
 h1 {
-    
+    font-weight: 700;
+    font-size: 2.5rem;
 }
 
 h2 {
-
+    font-weight: 500;
+    font-size: 2rem;
 }
 
 h3 {
-    
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.subtitle {
+    font-size: 1.25rem;
 }
 
 p {
+    margin: 0;
+    padding-bottom: 1rem;
+    font-size: 16px;
+}
 
+p:last-child {
+    padding-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+    transition: all .3s ease-in-out;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
 }
 
 /* Button */
 .btn {
-    
+    background-color: var(--color-secondary);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: var(--color-primary);
+}
+
+.btn-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    border-radius: 9999px;
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+    transition: all .3s ease-in-out;
+}
+
+.btn-icon:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
 }
 
 /* Container */
 .container {
-    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 @media (min-width: 640px) {

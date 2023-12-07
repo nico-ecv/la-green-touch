@@ -1,0 +1,27 @@
+.hero-header {
+    background-image:url(../../Img/Fond\ hero\ header.webp);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 90vh;
+}
+
+.container-center {
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.flex-layout {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-header-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 5rem;
+    padding: 2rem;
+    border-radius: 32px;
+}
