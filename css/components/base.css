@@ -1,15 +1,39 @@
+
+:root {
+    --color-primary: #386641;
+    --color-secondary: #6A994E;
+    --color-third: #A7C957;
+    --color-background: #F2E8CF;
+    --color-button: #BC4749;
+}
+
 html, body {
     font-family: "asap", sans-serif;
 }
 
+/* Content */
 h1 {
     
 }
 
+h2 {
+
+}
+
+h3 {
+    
+}
+
+p {
+
+}
+
+/* Button */
 .btn {
     
 }
 
+/* Container */
 .container {
     width: 100%;
 }
