@@ -1,0 +1,145 @@
+.product {
+    margin: 4rem 0;
+}
+
+.product-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.product-figure {
+    width: 100%;
+}
+
+.product-img {
+    width: 100%;
+}
+
+.product-figcaption {
+    padding: 2rem 2rem 0;
+    font-size: 1.25rem;
+    display: none;
+}
+
+.product-figcaption h2 {
+    padding-bottom: 1rem;
+}
+
+.product-container .product-figcaption {
+    display: block;
+    padding-top: 4rem;
+}
+
+.product-container {
+    flex-shrink: 0;
+}
+
+.product-content {
+    padding: 0 4rem;
+}
+
+.product-content .btn {
+    display: block;
+    text-align: center;
+}
+
+.product-heading {
+    padding-bottom: 2rem;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+}
+
+.product-variant {
+    border: 0px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 0 1rem 0;
+}
+
+.product-variant legend {
+    padding: 0 0 1rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.product-variant input {
+    display: none;
+}
+
+.product-variant-field label {
+    border-radius: 9999px;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    outline: 1px solid rgba(0, 0, 0, .5);
+    outline-offset: 2px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.product-variant-field label:hover {
+    outline: 1px solid var(--color-black);
+}
+
+.product-variant-field input:checked + label {
+    outline: 1px solid var(--color-black);
+}
+
+.product-variant-field.pink label {
+    background: var(--color-white);
+}
+.product-variant-field.red label {
+    background: var(--color-third);
+}
+.product-variant-field.green label {    
+    background: var(--color-primary);
+}
+
+.product-description-list {
+    padding-bottom: 1rem;
+}
+
+.product-buy-container {
+    padding-top: 3rem;
+}
+
+.product-feature {
+    background-color: var(--color-white);
+    border-radius: 4px;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: 200;
+}
+
+@media (min-width: 768px) {
+    .product-layout {
+        flex-direction: row;
+    }
+
+    .product-container {
+        width: 32rem;
+        flex-shrink: 0;
+    }
+
+    .product-content {
+        position: sticky;
+        top: 10rem;
+    }    
+
+    .product-figcaption {
+        display: block;
+    }
+
+    .product-container .product-figcaption {
+        display: none;
+    }
+
+    .product-content .btn {
+        display: inline-block;
+    }
+}

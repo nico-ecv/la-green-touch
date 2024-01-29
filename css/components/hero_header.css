@@ -1,9 +1,9 @@
 .hero-header {
-    background-image:url(../../Img/Fond\ hero\ header.webp);
+    background-image:url(../../img/background-shop.jpg);
     background-size: cover;
     background-position: center;
     text-align: center;
-    height: 90vh;
+    height: 80vh;
 }
 
 .container-center {
@@ -20,8 +20,8 @@
 }
 
 .hero-header-card {
-    background-color: rgba(255, 255, 255, 0.8);
-    margin: 5rem;
-    padding: 2rem;
+    background-color: rgba(242, 232, 207, 0.8);
+    margin: 5rem 0;
+    padding: 2.25rem 3rem;
     border-radius: 32px;
 }

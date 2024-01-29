@@ -1,16 +1,23 @@
 .feature {
-    margin: 4rem 0;
+    padding: 7rem 0;
 }
 
 .feature-layout {
     display: grid;
-    gap: 1rem;
+    gap: 4rem;
 }
 
 .feature-content {
     align-self: center;
-
     grid-row: 2;
+}
+
+.feature-img {   
+    max-height: 36rem;
+    width: 100%;
+    border-radius: 10rem 0 0 0;
+    object-fit: cover;
+    object-position: center;
 }
 
 @media (min-width: 768px) {

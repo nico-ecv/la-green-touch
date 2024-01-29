@@ -1,21 +1,33 @@
 .feature_grid {
-    margin: 4rem 0;
+    padding: 7rem 0;
 }
 
 .feature_grid-layout {
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .feature_grid-content {
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
+    .feature_grid-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 640px) {
+    .feature_grid-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
     .feature_grid-layout {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 1rem;
+        gap: 3rem;
     }
 }

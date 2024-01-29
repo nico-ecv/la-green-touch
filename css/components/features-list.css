@@ -1,19 +1,32 @@
 .feature_list {
-    margin: 4rem 0;
+    padding: 7rem 0;
 }
 
 .feature_list-layout {
     display: grid;
-    gap: 1rem;
+    gap: 4rem;
 }
 
 .feature_list-item {
+    padding: 2rem 2rem;
+    background-color: var(--color-white);
+    border-radius: 24px;
     text-align: center;
+    color: var(--color-black);
 }
 
+.feature-img-people {
+    height: 96px;
+    width: 96px;
+    margin-bottom: 1rem;
+    background-color: var(--color-secondary);
+    border-radius: 80px;
+}
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
     .feature_list-layout {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
     }
 }

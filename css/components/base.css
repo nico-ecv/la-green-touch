@@ -1,10 +1,9 @@
 
 :root {
     --color-primary: #386641;
-    --color-secondary: #6A994E;
-    --color-third: #A7C957;
+    --color-secondary: #BC4749;
+    --color-third: #8A3132;
     --color-background: #F2E8CF;
-    --color-button: #BC4749;
     --color-white: #ffffff;
     --color-grey: #E5E5E5;
     --color-black: #000000;
@@ -12,6 +11,7 @@
 
 html, body {
     font-family: "Asap", sans-serif;
+    background-color: var(--color-background);
 }
 
 body {
@@ -29,31 +29,31 @@ h1, h2, h3, h4 {
 h1 {
     font-weight: 700;
     font-size: 2.5rem;
+    padding-bottom: 1rem;
 }
 
 h2 {
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-bottom: 0.8rem;
 }
 
 h3 {
     font-weight: 500;
-    font-size: 1.75rem;
-}
-
-h4 {
-    font-weight: 500;
     font-size: 1.25rem;
+    padding-bottom: 0.25rem;
 }
 
 .subtitle {
     font-size: 1.25rem;
+    padding-bottom: 0.25rem;
 }
 
 p {
+    font-family: 'Syne', sans-serif;
     margin: 0;
-    padding-bottom: 1rem;
     font-size: 16px;
+    line-height: 1.5rem;
 }
 
 p:last-child {
@@ -71,19 +71,25 @@ img {
     max-width: 100%;
 }
 
+figure {
+    margin: 0;
+}
+
 /* Button */
 .btn {
     background-color: var(--color-secondary);
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 2rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 500;
     color: var(--color-white);
     text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
 }
 
 .btn:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-third);
 }
 
 .btn-icon {
@@ -94,11 +100,16 @@ img {
     border-radius: 9999px;
     color: var(--color-white);
     background-color: var(--color-secondary);
+    border-width: 0px;
+    flex-shrink: 0;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
     transition: all .3s ease-in-out;
 }
 
 .btn-icon:hover {
-    background-color: var(--color-primary);
+    background-color: var(--color-third);
     color: var(--color-white);
 }
 

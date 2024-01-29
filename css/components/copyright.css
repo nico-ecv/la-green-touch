@@ -1,5 +1,6 @@
 .copyright {
-    background-color: var(--color-third);
+    background-color: var(--color-secondary);
+    color: var(--color-white);
     padding: 1rem 0;
 }
 
