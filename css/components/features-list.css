@@ -1,5 +1,12 @@
 .feature_list {
     padding: 7rem 0;
+    background-color: var(--color-primary);
+}
+
+.feature_grid-content_white {
+    text-align: center;
+    padding-bottom: 4rem;
+    color: var(--color-white);
 }
 
 .feature_list-layout {
